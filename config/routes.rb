@@ -1,4 +1,8 @@
 Todo::Application.routes.draw do
+  resources :notes
+
+  resources :contacts
+
   resources :tasks
 
   resources :projects
